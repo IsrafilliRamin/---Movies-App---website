@@ -1,0 +1,408 @@
+.header {
+    background-color: #121829;
+    width: 100%;
+    height: 80px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #A8AEBF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 156px 0 126px;
+   
+    .headerRight {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        margin-top: 1rem;
+        width: 600px;
+        
+
+        .imgRight {
+            width: 27.48px;
+            height: 32px;
+            margin-bottom: 1rem;
+          
+        }
+        .heart{
+            width: 27.48px;
+            height: 32px;
+            font-size: 25px;
+            margin-bottom:0.5rem;
+            color: rgb(118, 135, 218) !important;
+            cursor: pointer;
+            &:hover{
+                color: aqua !important;
+            }
+           
+        }
+       
+    }
+
+    .imgMain {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+.active{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+.watchlist{
+    width: 27.48px;
+    height: 32px;
+    font-size: 25px;
+    margin-bottom:0.5rem;
+    color: rgb(118, 135, 218);
+    cursor: pointer;
+    &:hover{
+        color: aqua;
+    }
+}
+.BurgerMen{
+    color: rgb(118, 135, 218) !important;
+    height:35px;
+    font-size: 33px;
+    cursor: pointer;
+    display: none;
+    &:hover{
+        color: rgb(31, 228, 221) !important;
+    }
+}
+
+
+
+
+
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1280px){
+    .section{
+        height: 4050px !important;
+    }
+    .section .backimg {
+        height: 4050px;
+    }
+    .detailsContainer .title h2 {
+        font-size: 2vw !important;
+    }
+    .sectionn{
+        height: 2800px !important;
+    }
+    .sectionn .backimgg {
+        height: 2800px !important;
+    }
+    .recomend {
+        font-size: 5vw !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .bottomContainer {
+        display: flex;
+        flex-direction: column;
+        left: 0 !important;
+       width: 0px !important;
+       margin-left: 200px;
+    }
+    .bottomContainer h3{
+        margin: 20px 0 10px 0;
+    }
+    .detailsContainer .title {
+        width: 50vw !important;
+        height: 144px !important;
+    }
+    .recomend {
+        margin: 450px 0 0 0 !important;
+        left: 270px !important;
+    }
+    .containerd{
+        margin-top: 400px;
+    }
+    .sectionn{
+        height: 3200px !important;
+    }
+    .sectionn .backimgg {
+        height: 3200px !important;
+    }
+    .postpath{
+        height: 462px;
+    }
+    .h1{
+        left: 100px !important;
+       }
+}
+
+@media only screen and (max-width: 912px){
+    .sectionn{
+        height: 3700px !important;
+    }
+    .sectionn .backimgg{
+        height: 3700px !important;
+    }
+    .header{
+        padding: 0 80px 0 80px;
+    }
+    .backdrop{
+        width: 80vw !important;
+    }
+    .detailsContainer{
+        left: 90px !important;
+    }
+   .detailsContainer .title p{
+    font-size: 2vw !important;
+   }
+   .detailsContainer .title h2{
+    font-size: 3.5vw !important;
+   }
+   .postpath{
+    width: 40vw !important;
+    height: 500px;
+    margin-right: 100px !important;
+   }
+   .bottomContainer .right {
+    margin-top: 200px;
+   }
+   .recomend{
+    margin-top: 870px !important;
+    left: 220px !important;
+   }
+   .bottomContainer h3 {
+    font-size: 35px !important;
+    
+   }
+   .bottomContainer p {
+    font-size: 20px !important;
+   }
+   .containerd{
+    top: 2200px !important;
+    right: 70px !important;
+    
+   }
+}
+
+@media only screen and (max-width: 820px){
+    .header{
+        padding: 0 60px 0 60px;
+    }
+   
+    .section{
+        height: 5650px !important;
+       
+     
+    }
+    .section .backimg {
+        height: 5050px;
+      
+    }
+    .container{
+        margin-left: 60px !important;
+    }
+    .topContainer{
+        position: absolute;
+       left: 60px !important;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px){
+   .bottomContainer {
+   margin-left: 130px !important;
+   }
+   .recomend{
+    left: 170px !important;
+   }
+   .containerd{
+  right: 60px !important;
+   }
+   .h1{
+    left: 100px !important;
+   }
+}
+
+
+@media only screen and (max-width: 540px){
+    .header{
+        position: fixed;
+        z-index: 1000;
+        
+    }
+    .headerRight{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 64px;
+        right: 1px;
+        background-color: rgb(2, 2, 131);
+        width: 215px !important;
+        z-index: 1000;
+        height: 90vh;
+       left: 100%;
+       transition: 0.5s ease all
+       
+    }
+   
+    .BurgerMen{
+        display: block;
+    }
+    .section{
+        height:10850px !important;
+       
+     
+    }
+    .section .backimg {
+        height: 10250px;
+      
+    }
+    .detailsContainer{
+        left: 60px !important;
+    }
+    .detailsContainer .title{
+        left: 80px !important;
+    }
+    .postpath{
+        width: 60vw !important;
+    }
+    .bottomContainer{
+       margin-left: 50px !important;
+    }
+    .bottomContainer .right{
+        margin-top: 300px !important;
+        margin-left: 60px !important;
+    }
+    .bottomContainer h3{
+        width: 50vw !important;
+    }
+    .containerd{
+        margin-top: 700px !important;
+        left:0px !important;
+        width: 400px !important;
+    }
+    .recomend{
+        margin-top: 1150px !important;
+        font-size: 32px !important;
+        left: 100px !important;
+    }
+    .sectionn{
+        height: 5000px !important;
+    }
+    .sectionn .backimgg{
+    height: 5000px !important;
+    }
+    .h1{
+        left: 10px !important;
+       }
+}
+
+
+
+@media only screen and (max-width: 430px){
+    .header{
+        padding: 0 40px 0 30px;
+    }
+.detailsContainer{
+    left: 40px !important;
+}
+.bottomContainer{
+    margin-left: 0px !important;
+    left: 0px !important;
+   
+}
+.postpath{
+    width: 80vw !important;
+    margin-right: 0px !important;
+    right: 0px !important;
+   
+ 
+}
+.bottomContainer .right{
+    margin-top: 400px !important;
+}
+.detailsContainer .title {
+   left: 60px !important;
+   
+}
+.detailsContainer .title p{
+    font-size: 15px !important;
+}
+.detailsContainer .title h2{
+    padding-left:30px !important ;
+    font-size: 20px !important;
+}
+.recomend{
+    margin-top: 1400px !important;
+}
+.containerd{
+    margin-top: 1000px !important;
+  margin-left:70px !important;
+ margin-right: 0px !important;
+ right: 0px !important;
+ width: 70% !important;
+}
+.sectionn{
+height: 5300px !important;
+}
+.sectionn .backimgg{
+    height: 5300px !important;
+    
+}
+.headerRight{
+    height: 197vw !important;
+    width: 165px !important;
+}
+input{
+    width: 70vw !important;
+}
+.topContainer .topp{
+    padding-right: 50px;
+}
+.topContainer{
+    margin-left: 0px !important;
+    left: 30px !important;
+    
+   
+}
+.container {
+    margin-left: 0px !important;
+    padding-left: 50px !important;
+}
+.headerRight{
+    height: 187vw !important;
+    padding-bottom: 20vw;
+}
+.cardsContainera{
+    margin-left: 50px !important;
+}
+}
+
+
+@media only screen and (max-width: 375px){
+    .topContainer{
+       left: 0px !important;
+       padding: 0 25px 0 5px !important;
+    }
+    .container{
+        width: 80% !important;
+        margin-left: 50px !important;
+    }
+    .headerRight{
+        height: 157vw !important;
+    }
+    .containerd .img {
+        width: 250px !important;
+    }
+    .containeryy .cardsContainera{
+        margin-left: 50px !important;
+    }
+    .containery .cardsContainera {
+        margin-left: 50px !important;
+    }
+}

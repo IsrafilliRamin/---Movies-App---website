@@ -1,0 +1,10 @@
+.container {
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-left: 126px;
+    transition: 800ms all;
+}

@@ -1,0 +1,126 @@
+.containeryy {
+    position: absolute;
+    top: 200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    .cardsContainera {
+      
+        margin-left: 90px;
+        height: 480px;
+        width: 282px;
+        border-radius: 12px;
+        padding: 1vw;
+        background-color: #20283E;
+        color: white;
+        margin-top: 32px;
+        position: relative;
+        padding: 8px 8px 16px 8px;
+        transition: 800ms all;
+        &:hover{
+            box-shadow: 0 0 20px blue;
+            transition: 800ms all;
+        }
+        
+    }
+
+    .img {
+        position: absolute;
+        left: 2.5%;
+        right: 0%;
+        top: 2%;
+        bottom: 0%;
+        width: 266px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .starContainer {
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(8px);
+        position: absolute;
+        width: 60px;
+        height: 35px;
+        top: 18px;
+        left: 16px;
+        border-radius: 8px;
+        padding: 4px, 8px, 4px, 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        .star {
+            color: #FFAD49;
+            margin-right: 8px;
+            font-size: 20px;
+        }
+        .count{
+            font-size: 16px;
+            color: #FFAD49;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .heartContainer{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 18px;
+        right: 16px;
+        border-radius: 8px;
+        padding: 4px, 8px, 4px, 8px;
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(8px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .heart{
+           
+            color: #fa0606;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                color: aqua;
+                
+                
+            }
+           
+        }
+    }
+    .containerTitle{
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0 0px 0 7px;
+        .tags{
+            color: #FFAD49;
+            font-size: 20px;
+           
+            height: 20px;
+            &:hover{
+                color: aqua;
+                cursor: pointer;
+                
+            }
+        }
+        .titlep{
+            font-size: 15px;
+        }
+    }
+
+
+}
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+    animation-play-state: running;
+    position: absolute;
+    top: 200px;
+    color: rgb(103, 140, 186);
+    font-size: 50px;
+    left: 300px;
+    
+}
+   

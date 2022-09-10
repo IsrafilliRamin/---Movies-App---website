@@ -1,0 +1,98 @@
+.topContainer {
+    z-index: 100;
+    position: absolute;
+    top: 160px;
+    left: 126px;
+    
+    .toph {
+        font-family: 'Poppins' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        color: #EBEEF5;
+        line-height: 80px;
+        letter-spacing: -2%;
+        margin-bottom: 16px;
+    }
+
+    .topp {
+        font-family: 'Poppins' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #8E95A9;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+.search {
+    width: 344px;
+    
+    ::placeholder{
+        color: #323B54;
+        font-size: 24px;
+        font-family: 'Poppins' sans-serif;
+    }
+    
+}
+
+.ant-input-search>.ant-input-group>.ant-input-group-addon:last-child {
+    left: -1px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    
+}
+.ant-input-group-addon:first-child, .ant-input-group-addon:first-child .ant-select .ant-select-selector, .ant-input-group>.ant-input:first-child, .ant-input-group>.ant-input:first-child .ant-select .ant-select-selector {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #121829 !important;
+    border: 1px solid #323B54;
+    border-radius: 12px;
+    color: white;
+    padding-left: 55px;
+    height: 64px !important;
+    ::placeholder{
+        color: red !important;
+    }
+    
+    
+}
+.ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0 2px 2px 0px;
+    background-color: #121829;
+    border: 1px solid #323B54;
+    border-right: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    height: 64px !important;
+    font-size: 24px; 
+    
+}
+
+.ant-input-group-addon{
+    background-color: rgba(128, 255, 0, 0);
+    
+}
+.ant-btn-primary {
+    color: #323B54;
+    border-color: #1890ff;
+    background: #1890ff;
+    text-shadow: 0 -1px 0rgba(0,0,0,.12);
+    box-shadow: 0 2px 0rgba(0,0,0,.045);
+    ::placeholder{
+        color: #323B54 !important;
+    }
+}
+
+.h2{
+    font-family: 'Poppins' sans-serif;
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #767E94;
+}
+

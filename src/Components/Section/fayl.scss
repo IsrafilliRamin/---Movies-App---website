@@ -1,0 +1,15 @@
+.section{
+   background-color: #121829;
+    background-size: 100%;
+   height: 3000px;
+   width: 100%;
+   z-index: 0;
+   overflow: hidden;
+   .backimg{
+      height: 3000px;
+      width: 1600px;
+     object-fit: cover;
+      z-index: 100;
+   }
+
+}
