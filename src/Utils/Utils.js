@@ -1,4 +1,4 @@
-const Key = "07989e510be31f37e529531744bfc3ec"
+const Key = "20325b57b63187bb9a782879cbcc0ac5"
 
 const axios = require('axios').default;
 export const getData = async (name) =>{
