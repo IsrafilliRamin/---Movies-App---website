@@ -25,7 +25,7 @@ const MovieCards = ({ title, poster_path, vote_average,id }) => {
         
     const [detal,SetDetal] = useState([])
     const detailApi = async (id)=>{
-        const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=20325b57b63187bb9a782879cbcc0ac5&language=en-US`)
+        const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=20325b57b63187bb9a782879cbcc0ac5&language=en-US`);
         const detaDat = await res.json()
         SetDetal(detaDat)
     }
