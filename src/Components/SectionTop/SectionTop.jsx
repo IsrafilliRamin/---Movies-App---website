@@ -16,13 +16,12 @@ const SectionTop = () => {
   const movies = useSelector(state=>state.MoviesData.value)  
   const dispatch = useDispatch()
 
-  /* const API_SERACH="https://api.themoviedb.org/3/search/movie?api_key=07989e510be31f37e529531744bfc3ec&language=en-US&page=1&include_adult=false"
-  const Key = "07989e510be31f37e529531744bfc3ec" */
+ 
   const onSearch = async(value) => { 
     const url = `https://api.themoviedb.org/3/search/movie?api_key=07989e510be31f37e529531744bfc3ec&query=${value}`
     const res = await fetch(url)
     const data = await res.json()
-    console.log(value);
+
     if(data.results===undefined || data.results === ''){
       dispatch(setMoviesData(movies))
     }
