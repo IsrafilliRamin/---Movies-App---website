@@ -56,8 +56,7 @@ const MovieCards = ({ title, poster_path, vote_average,id }) => {
    const AddListHeart = ()=>{
     dispatch(incrementH())
     dispatch(setFavoritList(detal))
-   /* let heart = document.querySelector(".heart2").style.display="block"
-   console.log(heart); */
+
     notification.open({
         message: 'Success',
         description:
