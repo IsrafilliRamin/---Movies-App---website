@@ -22,7 +22,7 @@ const Details = () => {
     console.log(detal);
    
     const detailApi = async (par)=>{
-        const res = await fetch(`https://api.themoviedb.org/3/movie/${par}?api_key=07989e510be31f37e529531744bfc3ec&language=en-US`)
+        const res = await fetch(`https://api.themoviedb.org/3/movie/${par}?api_key=20325b57b63187bb9a782879cbcc0ac5&language=en-US`)
         const detaDat = await res.json()
         SetDetal(detaDat)  
     }
