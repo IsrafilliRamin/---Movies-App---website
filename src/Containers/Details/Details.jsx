@@ -19,7 +19,7 @@ const Details = () => {
     const [detal,SetDetal] = useState([])
     var movies = useSelector(state=>state.MoviesData.value) 
     var movisCat = movies.slice(0,4) 
-    console.log(detal);
+   
    
     const detailApi = async (par)=>{
         const res = await fetch(`https://api.themoviedb.org/3/movie/${par}?api_key=20325b57b63187bb9a782879cbcc0ac5&language=en-US`)
@@ -73,7 +73,7 @@ const Details = () => {
           }
          console.log(API_IMG+detal.backdrop_path,"img");
           let backdrop = `https://image.tmdb.org/t/p/original/${detal.backdrop_path}`;
-          console.log(backdrop,"poster");
+        
           
     return (
         <div className='sectionn'>
