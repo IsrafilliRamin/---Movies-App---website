@@ -19,7 +19,7 @@ const Header = () => {
   const valueHea = useSelector(state=>state.MoviesData.counterHeart)
 
   const [show,setShow] = useState(false);
-  console.log(show)
+
   
   const burgerFunc = ()=>{
     var v = document.querySelector(".headerRight")
@@ -30,7 +30,7 @@ const Header = () => {
     }
    
     setShow(!show)
-    console.log(v)
+ 
   }
 
 
