@@ -25,7 +25,7 @@ const Heart = () => {
         WatchL = []
     }
 
-  console.log(WhatchL,"WhatchL")
+ 
   
     const DeletList = ()=>{
         dispatch(decrementH())
